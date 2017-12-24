@@ -1,4 +1,4 @@
-<!--
+﻿<!--
 
     Copyright (C) 2014 Apigee Corporation
 
@@ -39,7 +39,10 @@
     <properties>
             <main.basedir>${project.basedir}</main.basedir>
     </properties>
-
+    <modules>
+        <module>twitter-mobile-timeline</module>
+        <module>base64encoder</module>
+     </modules>
     <build>
         <plugins>
             <plugin>

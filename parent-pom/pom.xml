@@ -22,7 +22,7 @@
     <artifactId>parent-pom</artifactId>
     <packaging>pom</packaging>
     <version>1.0</version>
-    <pluginRepositories>
+    <!--<pluginRepositories>
         <pluginRepository>
             <id>central</id>
             <name>Maven Plugin Repository</name>
@@ -35,7 +35,7 @@
                 <updatePolicy>never</updatePolicy>
             </releases>
         </pluginRepository>
-    </pluginRepositories>
+    </pluginRepositories> -->
     <properties>
             <main.basedir>${project.basedir}</main.basedir>
     </properties>

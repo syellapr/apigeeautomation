@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><Javascript async="false" continueOnError="false" enabled="true" name="mobile-timeline" timeLimit="200">
+    <!-- The statuses/user_timeline.json response is tailored by JavaScript processing -->
+    <ResourceURL>jsc://mobile-timeline.js</ResourceURL>
+</Javascript>

@@ -1,0 +1,76 @@
+{
+    "configurations": [
+        {
+            "name": "test",
+            "policies": [
+                {
+                    "name": "mobile-timeline.xml",
+                    "tokens": [
+                        {
+                            "xpath": "/Javascript/ResourceURL",
+                            "value": "jsc://mobile-timeline.js"
+                        }
+                    ]
+                }
+            ],
+            "proxies": [
+                {
+                    "name": "default.xml",
+                    "tokens": [
+                        {
+                            "xpath": "/ProxyEndpoint/HTTPProxyConnection/BasePath",
+                            "value": "/twitter-mobile-timeline/1"
+                        }
+                    ]
+                }
+            ],
+            "targets": [
+                {
+                    "name": "default.xml",
+                    "tokens": [
+                        {
+                            "xpath": "/TargetEndpoint/HTTPTargetConnection/URL",
+                            "value": "http://api.twitter.com/1"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "prod",
+            "policies": [
+                {
+                    "name": "mobile-timeline.xml",
+                    "tokens": [
+                        {
+                            "xpath": "/Javascript/ResourceURL",
+                            "value": "jsc://mobile-timeline.js"
+                        }
+                    ]
+                }
+            ],
+            "proxies": [
+                {
+                    "name": "default.xml",
+                    "tokens": [
+                        {
+                            "xpath": "/ProxyEndpoint/HTTPProxyConnection/BasePath",
+                            "value": "/twitter-mobile-timeline/1"
+                        }
+                    ]
+                }
+            ],
+            "targets" : [
+                {
+                    "name": "default.xml",
+                    "tokens": [
+                        {
+                            "xpath": "/TargetEndpoint/HTTPTargetConnection/URL",
+                            "value": "http://api.twitter.com/1"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

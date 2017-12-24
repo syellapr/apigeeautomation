@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><APIProxy name="twitter-mobile-timeline">
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <Description>Twitter Mobile Timeline</Description>
+    <DisplayName>twitter-mobile-timeline</DisplayName>
+</APIProxy>

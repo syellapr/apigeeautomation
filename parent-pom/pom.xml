@@ -118,7 +118,7 @@
 				<apigee.env>test</apigee.env>
 				<apigee.hosturl>https://api.enterprise.apigee.com</apigee.hosturl>
 				<apigee.apiversion>v1</apigee.apiversion> <!-- value of version in  https://api.enterprise.apigee.com/v2 -->
-				<apigee.org>syellaprorg</apigee.org>
+				<apigee.org>yellapragada</apigee.org>
 			    	<apigee.username>${username}</apigee.username>
                 		<apigee.password>${password}</apigee.password>
 				<apigee.options>clean,validate</apigee.options>
@@ -131,7 +131,7 @@
 				<apigee.env>prod</apigee.env>
 				<apigee.hosturl>https://api.enterprise.apigee.com</apigee.hosturl>
 				<apigee.apiversion>v1</apigee.apiversion> <!-- value of version in  https://api.enterprise.apigee.com/v2 -->
-				<apigee.org>syellaprorg</apigee.org>
+				<apigee.org>yellapragada</apigee.org>
 			    	<apigee.username>${username}</apigee.username>
                 		<apigee.password>${password}</apigee.password>
 				<apigee.options>override</apigee.options>
